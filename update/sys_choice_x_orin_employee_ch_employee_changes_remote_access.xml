@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="remote_access" table="x_orin_employee_ch_employee_changes" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_access</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_orin_employee_ch_employee_changes</name>
+            <sequence>0</sequence>
+            <sys_created_by>d.beckett</sys_created_by>
+            <sys_created_on>2016-07-16 16:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1bbf69934f686a004bc3926ca310c717</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>d.beckett</sys_updated_by>
+            <sys_updated_on>2016-07-16 16:51:23</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>remote_access</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_orin_employee_ch_employee_changes</name>
+            <sequence>1</sequence>
+            <sys_created_by>d.beckett</sys_created_by>
+            <sys_created_on>2016-07-16 16:51:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>97bf69934f686a004bc3926ca310c718</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>d.beckett</sys_updated_by>
+            <sys_updated_on>2016-07-16 16:51:23</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>remote_access</element>
+            <name>x_orin_employee_ch_employee_changes</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>d.beckett</sys_created_by>
+            <sys_created_on>2016-07-16 16:51:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>93bf69934f686a004bc3926ca310c718</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>remote_access</sys_name>
+            <sys_package display_value="Employee Changes" source="x_orin_employee_ch">e4e3d5574f286a004bc3926ca310c771</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Changes">e4e3d5574f286a004bc3926ca310c771</sys_scope>
+            <sys_update_name>sys_choice_x_orin_employee_ch_employee_changes_remote_access</sys_update_name>
+            <sys_updated_by>d.beckett</sys_updated_by>
+            <sys_updated_on>2016-07-26 13:53:59</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

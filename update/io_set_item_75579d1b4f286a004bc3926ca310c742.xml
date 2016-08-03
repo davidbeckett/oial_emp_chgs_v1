@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Employee onboarding">ed579d1b4f286a004bc3926ca310c740</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>d.beckett</sys_created_by>
+        <sys_created_on>2016-07-16 15:04:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>75579d1b4f286a004bc3926ca310c742</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sm_light_variable_set.Employee onboarding</sys_name>
+        <sys_package display_value="Employee Changes" source="x_orin_employee_ch">e4e3d5574f286a004bc3926ca310c771</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Changes">e4e3d5574f286a004bc3926ca310c771</sys_scope>
+        <sys_update_name>io_set_item_75579d1b4f286a004bc3926ca310c742</sys_update_name>
+        <sys_updated_by>d.beckett</sys_updated_by>
+        <sys_updated_on>2016-07-16 15:04:47</sys_updated_on>
+        <variable_set display_value="sm_light_variable_set">227c8e46d7210200bbc783e80e610387</variable_set>
+    </io_set_item>
+</record_update>

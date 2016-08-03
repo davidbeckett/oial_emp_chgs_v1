@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Employee Offboarding">9b0fb5ac37f8e2405141ea4873990edc</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>d.beckett</sys_created_by>
+        <sys_created_on>2016-07-26 12:10:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7c5f842e37f8a6405141ea4873990e2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Employee Offboarding</sys_name>
+        <sys_package display_value="Employee Changes" source="x_orin_employee_ch">e4e3d5574f286a004bc3926ca310c771</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Changes">e4e3d5574f286a004bc3926ca310c771</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_7c5f842e37f8a6405141ea4873990e2f</sys_update_name>
+        <sys_updated_by>d.beckett</sys_updated_by>
+        <sys_updated_on>2016-07-26 12:10:24</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

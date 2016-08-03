@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Reply Inbound</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.include('validators');
+
+if (current.getTableName() == "x_orin_employee_ch_employee_changes") {
+    
+    var body = email.body_text;
+    
+   var system_user_name = gs.getProperty("glide.email.username");
+  
+   var beginInbound = body.indexOf(system_user_name) - 6;
+    
+    if(beginInbound >= 0) {
+      // Strip off the original message
+      body = body.substring(0, beginInbound).trim();
+    }
+
+    /*  Other Actions Here */
+
+    current.comments   = 
+               body;
+    /*current.work_notes = 
+               "Inbound Email Response from " + email.origemail; */
+
+    current.update();
+}]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>d.beckett</sys_created_by>
+        <sys_created_on>2016-07-29 19:04:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d2298d274ff822004bc3926ca310c72f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Reply Inbound</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Changes" source="x_orin_employee_ch">e4e3d5574f286a004bc3926ca310c771</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Changes">e4e3d5574f286a004bc3926ca310c771</sys_scope>
+        <sys_update_name>sysevent_in_email_action_d2298d274ff822004bc3926ca310c72f</sys_update_name>
+        <sys_updated_by>d.beckett</sys_updated_by>
+        <sys_updated_on>2016-08-01 14:24:52</sys_updated_on>
+        <table>x_orin_employee_ch_employee_changes</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>
