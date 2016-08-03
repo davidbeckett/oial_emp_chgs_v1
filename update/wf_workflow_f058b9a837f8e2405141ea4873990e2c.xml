@@ -35,12 +35,12 @@
         <sys_created_by>d.beckett</sys_created_by>
         <sys_created_on>2016-08-01 13:19:06</sys_created_on>
         <sys_id>f5989394374962005141ea4873990eee</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>d.beckett</sys_updated_by>
-        <sys_updated_on>2016-08-01 13:20:12</sys_updated_on>
+        <sys_updated_on>2016-08-03 18:13:38</sys_updated_on>
         <table>x_orin_employee_ch_employee_changes</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Offboarding - Change Tasks Creation">f058b9a837f8e2405141ea4873990e2c</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

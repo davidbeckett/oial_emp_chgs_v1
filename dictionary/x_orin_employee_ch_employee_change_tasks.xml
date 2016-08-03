@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Employee Change Tasks" max_length="40" name="x_orin_employee_ch_employee_change_tasks" sizeclass="93" type="collection"/>
+    <element audit="true" extends="task" label="Employee Change Tasks" max_length="40" name="x_orin_employee_ch_employee_change_tasks" sizeclass="18" type="collection"/>
 </database>

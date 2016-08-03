@@ -26,19 +26,21 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><strong>Additional comments:</strong> ${comments}</p>
+        <message_html><![CDATA[<p>${comments}</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p><strong>State:</strong> ${state}<br /><strong>Assigned to:</strong> ${assigned_to}</p>
 <p>&nbsp;</p>
 <p><strong>Orbis Global Technology Infrastructure</strong></p>
-<p>For IT Support please phone 5555 from any Cisco phone, or email&nbsp;<a href="mailto:itsupport@orbis.com">itsupport@orbis.com</a>&nbsp;</p>]]></message_html>
+<p>For IT Support please phone 5555 from any Cisco phone, or email&nbsp;<a href="mailto:itsupport@orbis.com">itsupport@orbis.com</a>&nbsp;</p>
+<div style="display: none;"><img id="pasted_img_cb51710cb558c0cb5f4e0cb57eb0cb50" src="images/loading_anim2.gifx" alt="" width="0" height="0" /></div>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Employee Change - Onboarding - Comments</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_for,opened_by</recipient_fields>
+        <recipient_fields>opened_for,opened_by,watch_list</recipient_fields>
         <recipient_groups name="OIAL Infrastructure Notifications">c8439d50c46a85003ed11f27ea726d91</recipient_groups>
         <recipient_users/>
         <reply_to/>
@@ -53,7 +55,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d7bc58634fb822004bc3926ca310c7c9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Employee Change - Onboarding - Comments</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Changes" source="x_orin_employee_ch">e4e3d5574f286a004bc3926ca310c771</sys_package>
@@ -62,7 +64,7 @@
         <sys_scope display_value="Employee Changes">e4e3d5574f286a004bc3926ca310c771</sys_scope>
         <sys_update_name>sysevent_email_action_d7bc58634fb822004bc3926ca310c7c9</sys_update_name>
         <sys_updated_by>d.beckett</sys_updated_by>
-        <sys_updated_on>2016-07-29 16:03:53</sys_updated_on>
+        <sys_updated_on>2016-08-03 18:30:00</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
