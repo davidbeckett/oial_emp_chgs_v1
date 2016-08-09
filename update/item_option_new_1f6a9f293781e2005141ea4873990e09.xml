@@ -10,7 +10,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>Yes</default_value>
+        <default_value/>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -21,7 +21,7 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text/>
+        <help_text>Please describe any other software requirements you may have for this user</help_text>
         <include_none>false</include_none>
         <layout>normal</layout>
         <list_table/>
@@ -31,15 +31,15 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>create_an_orbis_email_address</name>
-        <order>150</order>
+        <name>Other_Required_Applications</name>
+        <order>470</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Create An Orbis Email Address</question_text>
+        <question_text>Other Application Requirements</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -50,28 +50,28 @@
         <reference_qual_condition/>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>d.beckett</sys_created_by>
-        <sys_created_on>2016-07-16 15:41:07</sys_created_on>
+        <sys_created_on>2016-08-05 10:40:41</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>b77f95df372862405141ea4873990e58</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Create An Orbis Email Address</sys_name>
+        <sys_id>1f6a9f293781e2005141ea4873990e09</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Other Application Requirements</sys_name>
         <sys_package display_value="Employee Changes" source="x_orin_employee_ch">e4e3d5574f286a004bc3926ca310c771</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Changes">e4e3d5574f286a004bc3926ca310c771</sys_scope>
-        <sys_update_name>item_option_new_b77f95df372862405141ea4873990e58</sys_update_name>
+        <sys_update_name>item_option_new_1f6a9f293781e2005141ea4873990e09</sys_update_name>
         <sys_updated_by>d.beckett</sys_updated_by>
-        <sys_updated_on>2016-07-16 15:41:07</sys_updated_on>
+        <sys_updated_on>2016-08-05 12:46:16</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>1</type>
+        <type>2</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <variable_name/>
         <variable_set/>
         <visibility>1</visibility>
@@ -81,5 +81,5 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=b77f95df372862405141ea4873990e58"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f6a9f293781e2005141ea4873990e09"/>
 </record_update>

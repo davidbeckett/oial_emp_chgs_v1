@@ -52,14 +52,14 @@
         </reference_qual_condition>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>d.beckett</sys_created_by>
         <sys_created_on>2016-07-22 12:54:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>0be27f454fbcea004bc3926ca310c7be</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Re-Assign Groups Owned / Authorised</sys_name>
         <sys_package display_value="Employee Changes" source="x_orin_employee_ch">e4e3d5574f286a004bc3926ca310c771</sys_package>
         <sys_policy/>
@@ -67,7 +67,7 @@
         <sys_scope display_value="Employee Changes">e4e3d5574f286a004bc3926ca310c771</sys_scope>
         <sys_update_name>item_option_new_0be27f454fbcea004bc3926ca310c7be</sys_update_name>
         <sys_updated_by>d.beckett</sys_updated_by>
-        <sys_updated_on>2016-07-22 12:57:31</sys_updated_on>
+        <sys_updated_on>2016-08-09 09:02:13</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
