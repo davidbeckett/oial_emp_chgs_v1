@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Employee Changes" max_length="40" name="x_orin_employee_ch_employee_changes" sizeclass="7" type="collection">
+    <element audit="true" extends="task" label="Employee Changes" max_length="40" name="x_orin_employee_ch_employee_changes" sizeclass="9" type="collection">
         <element label="Business Unit" max_length="32" name="business_unit" reference="sys_user_group" type="reference"/>
         <element choice="3" label="Category" max_length="34" name="category" type="choice">
             <choice>
